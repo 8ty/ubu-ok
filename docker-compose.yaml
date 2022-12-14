@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   ubuntu:
-    image: ubuntu:last
+    image: ubuntu:22.10
     command: tail -f /dev/null
     volumes:
       - data:/data
